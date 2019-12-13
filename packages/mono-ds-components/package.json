@@ -1,6 +1,6 @@
 {
   "name": "mono-ds-components",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
   "homepage": "https://github.com/yuritk/monorepo-ds-boilerplate#readme",
@@ -22,7 +22,7 @@
     "compile": "rollup -c"
   },
   "dependencies": {
-    "mono-ds-tokens": "^0.0.4"
+    "mono-ds-tokens": "^0.0.5"
   },
   "bugs": {
     "url": "https://github.com/yuritk/monorepo-ds-boilerplate/issues"

@@ -1,8 +1,8 @@
 {
-  "name": "tokens",
+  "name": "@kobajs/tokens",
   "version": "0.0.1",
   "description": "> TODO: description",
-  "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
+  "author": "Yuri Tavares Kobashigawa <kobashigawa.dev@gmail.com>",
   "homepage": "https://github.com/yuritk/monorepo-ds-boilerplate#readme",
   "license": "ISC",
   "main": "lib/tokens.js",

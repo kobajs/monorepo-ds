@@ -1,15 +1,13 @@
 "use strict";
 
+import React from 'react';
 import tokens from "mono-ds-tokens";
 
-module.exports = {
-  Button
-};
-
-function Button(props) {
+export function Button(props) {
   const { children } = props;
 
   const buttonStyle = {
+    color: tokens.palette.white,
     backgroundColor: tokens.palette.primary,
     padding: tokens.spacing.small
   };

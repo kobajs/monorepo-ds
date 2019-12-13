@@ -1,11 +1,11 @@
 {
-  "name": "mono-ds-components",
+  "name": "mono-ds-docs",
   "version": "0.0.4",
   "description": "> TODO: description",
   "author": "Yuri Tavares Kobashigawa <yuri.kobashigawa@loft.com.br>",
   "homepage": "https://github.com/yuritk/monorepo-ds-boilerplate#readme",
   "license": "ISC",
-  "main": "dist/index.js",
+  "main": "src/index.js",
   "directories": {
     "lib": "lib",
     "test": "__tests__"
@@ -19,19 +19,19 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "compile": "rollup -c"
+    "storybook": "start-storybook"
   },
   "dependencies": {
-    "mono-ds-tokens": "^0.0.4"
+    "mono-ds-components": "^0.0.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   },
   "bugs": {
     "url": "https://github.com/yuritk/monorepo-ds-boilerplate/issues"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
-    "@babel/preset-react": "^7.7.4",
-    "react": "^16.12.0",
-    "rollup": "^1.27.11",
-    "rollup-plugin-babel": "^4.3.3"
+    "@storybook/react": "^5.2.8",
+    "babel-loader": "^8.0.6"
   }
 }

@@ -19,7 +19,9 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "compile": "rollup -c"
+    "compile": "rollup -c",
+    "compile:watch": "rollup -c -w",
+    "docs:dev": "npm run compile:watch"
   },
   "dependencies": {
     "mono-ds-tokens": "^0.0.5"

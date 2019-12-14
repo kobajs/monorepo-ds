@@ -19,7 +19,8 @@
   },
   "scripts": {
     "test": "echo \"Error: run tests from root\" && exit 1",
-    "storybook": "start-storybook"
+    "storybook": "start-storybook",
+    "docs:dev": "npm run storybook"
   },
   "dependencies": {
     "mono-ds-components": "^0.0.5",
